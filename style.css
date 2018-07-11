@@ -167,3 +167,43 @@ color: #608bd2;}
          left: 0;
          z-index: 9999999999;
          opacity: 0; }
+
+
+/*Css de Yasser*/
+
+.tdjoueurs {
+        width: 300;
+        height:300;
+        text-align: center;
+    }
+    .trjoueurs {
+        border-style: solid;
+        border-color: transparent;
+        border:200%;
+        background-color: #192954;
+ }
+ .tablejoueurs {
+    margin: auto;
+    margin-bottom: 1%;
+    border-collapse: collapse;
+    color: white; 
+ }
+.image{
+    width: 160px;
+    height: 160px; 
+    
+}
+.textcase {
+    width: 700px;
+    height: 100px;
+    font-family: "Arial" , sans-serif
+}
+.bodyjoueurs {
+    margin: 0;
+    padding: 0;
+}
+.h1joueurs {
+    font-size: 25px;
+    font-family: "Arial" , sans-serif;
+    color: black;
+}
