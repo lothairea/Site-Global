@@ -44,17 +44,6 @@
 	font-size: 16px;
 	opacity: 0.9;
 }
-/* Changement opacité avec pointeur de la souris */
-/*.header1 .header2 nav a:hover{
-	opacity: 1;
-}*/
-/*Change la couleur de la page actuelle dans
- le menu et empêche de cliquer dessus */
-.header1 .header2 nav a.selected {
-	color: #608bd2;
-	pointer-events: none;
-	opacity: 1;
-}
 
 .logo {
 	width: 70px;
@@ -119,6 +108,56 @@ body {margin:0;
   box-shadow: 10px 10px 56px 0px rgba(0,0,0,0.75);
 color: #608bd2;}
 
-.hvr-glow:hover {color: #608bd2;}
+/*Code de David*/
+
+.image {
+    width: 350px;
+    height: 350px;
+}
+
+.textcase {
+    width: 700px;
+    height: 200px;    
+}
+
+.url {
+   display: flex;
+   justify-content: center;
+   color: white;
+   text-decoration: none;    
+}
+
+
+.pjeux {
+    font-size: 25px;
+    font-family: "Arial", sans-serif;
+    color: white;    
+}
+
+.h1jeux {
+   font-size: 50px;    
+    font-family: fantasy;
+    color: blue;
+    text-shadow: 5px 5px black;
+}
+
+.tdjeux {    
+    width: 300;
+    height: 300;    
+    text-align: center;         
+}
+
+.trjeux {    
+    border-style: solid;
+    border-color: transparent;
+    border: 200%;
+    background-color: #192954;
+}
+
+.tablejeux {
+    margin: auto;
+   margin-bottom: 1%;
+    border-collapse: collapse;
+}
 
 
