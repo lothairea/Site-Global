@@ -120,4 +120,6 @@ body {margin:0;
   transition-property: box-shadow;
 }
 .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 10px 10px 56px 0px rgba(0,0,0,0.75);}
+
+  
