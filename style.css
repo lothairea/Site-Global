@@ -127,6 +127,10 @@ color: #608bd2;}
    text-decoration: none;    
 }
 
+.icon {
+  display: flex;
+  justify-content: center;  
+}
 
 .pjeux {
     font-size: 25px;
