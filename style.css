@@ -216,11 +216,19 @@ color: #608bd2;}
 }
 
 .tableblue {background-color: #192954;
-            color: white;
             height: 70px;
 }
 
-.news {font-size: 18px;
+.news {font-size: 16px;
     font-family: "Arial" , sans-serif;
+    text-decoration:none;
+}
+
+.textdecob {text-decoration:none;
+           color: white;
+}
+
+.textdecon {text-decoration: none;
+            color: black;
 }
 
