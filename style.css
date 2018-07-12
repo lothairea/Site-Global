@@ -69,8 +69,9 @@ body {margin:0;
 	height: 120px;
 	box-sizing: border-box;
 	position: relative;
-    top: 500px;
+    top: 100px;
 }
+
 
 .copy {
 	color: white;
@@ -112,12 +113,13 @@ color: #608bd2;}
 
 .image2 {
     width: 350px;
-    height: 350px;
+    height: 400px;
 }
 
 .textcase {
     width: 700px;
-    height: 200px;    
+    height: 200px;
+    margin-top: 0px;        
 }
 
 .url {
@@ -126,7 +128,6 @@ color: #608bd2;}
    color: white;
    text-decoration: none;    
 }
-
 
 .pjeux {
     font-size: 25px;
@@ -197,7 +198,6 @@ color: #608bd2;}
     width: 700px;
     height: 100px;
     font-family: "Arial" , sans-serif
-    
 }
 .bodyjoueurs {
     margin: 0;
@@ -207,5 +207,27 @@ color: #608bd2;}
     font-size: 25px;
     font-family: "Arial" , sans-serif;
     color: black;
-    text-shadow: 3px 3px 3px grey;
+}
+
+.table {width: 100%;}
+
+.tablegray {background-color: #eaebef;
+	        height: 70px;
+}
+
+.tableblue {background-color: #192954;
+            height: 70px;
+}
+
+.news {font-size: 16px;
+    font-family: "Arial" , sans-serif;
+    text-decoration:none;
+}
+
+.textdecob {text-decoration:none;
+           color: white;
+}
+
+.textdecon {text-decoration: none;
+            color: black;
 }
