@@ -69,7 +69,11 @@ body {margin:0;
 	height: 120px;
 	box-sizing: border-box;
 	position: relative;
+<<<<<<< HEAD
   top: 100px;
+=======
+    top: 100px;
+>>>>>>> 6e7c34d750dca2a730980eda10719f532214b3a3
 }
 
 .copy {
@@ -206,4 +210,19 @@ color: #608bd2;}
     font-size: 25px;
     font-family: "Arial" , sans-serif;
     color: black;
+}
+
+.table {width: 100%;}
+
+.tablegray {background-color: #eaebef;
+	        height: 70px;
+}
+
+.tableblue {background-color: #192954;
+            color: white;
+            height: 70px;
+}
+
+.news {font-size: 18px;
+    font-family: "Arial" , sans-serif;
 }
