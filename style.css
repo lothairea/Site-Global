@@ -69,12 +69,9 @@ body {margin:0;
 	height: 120px;
 	box-sizing: border-box;
 	position: relative;
-<<<<<<< HEAD
-  top: 100px;
-=======
     top: 100px;
->>>>>>> 6e7c34d750dca2a730980eda10719f532214b3a3
 }
+
 
 .copy {
 	color: white;
@@ -226,3 +223,4 @@ color: #608bd2;}
 .news {font-size: 18px;
     font-family: "Arial" , sans-serif;
 }
+
