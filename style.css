@@ -115,7 +115,7 @@ color: #608bd2;}
 /*Code de David*/
 
 .image2 {
-    width: 350px;
+    width: 550px;
     height: 400px;
 }
 
@@ -133,7 +133,7 @@ color: #608bd2;}
 }
 
 .pjeux {
-    font-size: 25px;
+    font-size: 15px;
     font-family: "Arial", sans-serif;
     color: white;    
 }
@@ -146,7 +146,7 @@ color: #608bd2;}
 }
 
 .tdjeux {    
-    width: 300;
+    width: 400;
     height: 300;    
     text-align: center;         
 }
