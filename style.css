@@ -112,12 +112,13 @@ color: #608bd2;}
 
 .image2 {
     width: 350px;
-    height: 350px;
+    height: 400px;
 }
 
 .textcase {
     width: 700px;
-    height: 200px;    
+    height: 200px;
+    margin-top: 0px;        
 }
 
 .url {
@@ -125,11 +126,6 @@ color: #608bd2;}
    justify-content: center;
    color: white;
    text-decoration: none;    
-}
-
-.icon {
-  display: flex;
-  justify-content: center;  
 }
 
 .pjeux {
