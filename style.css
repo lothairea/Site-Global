@@ -197,6 +197,7 @@ color: #608bd2;}
     width: 700px;
     height: 100px;
     font-family: "Arial" , sans-serif
+    
 }
 .bodyjoueurs {
     margin: 0;
@@ -206,4 +207,5 @@ color: #608bd2;}
     font-size: 25px;
     font-family: "Arial" , sans-serif;
     color: black;
+    text-shadow: 3px 3px 3px grey;
 }
