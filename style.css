@@ -112,7 +112,7 @@ color: #608bd2;}
 /*Code de David*/
 
 .image2 {
-    width: 550px;
+    width: 350px;
     height: 400px;
 }
 
@@ -124,15 +124,17 @@ color: #608bd2;}
 
 .url {
    display: flex;
-   justify-content: center;   
+   justify-content: center;
    color: white;
-   text-decoration: none;
-   border: solid;
-   border-color: white;
+   text-decoration: none;    
 }
 
 .pjeux {
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 25px;
+>>>>>>> fac06abc8d3767a562ee65e676502476c4d61b21
     font-family: "Arial", sans-serif;
     color: white;    
 }
@@ -145,7 +147,7 @@ color: #608bd2;}
 }
 
 .tdjeux {    
-    width: 400;
+    width: 300;
     height: 300;    
     text-align: center;         
 }
@@ -229,4 +231,3 @@ color: #608bd2;}
 .textdecon {text-decoration: none;
             color: black;
 }
-
