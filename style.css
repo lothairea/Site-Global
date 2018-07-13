@@ -109,6 +109,15 @@ body {margin:0;
   box-shadow: 10px 10px 56px 0px rgba(0,0,0,0.75);
 color: #608bd2;}
 
+.inlink {width: 100%;
+         height: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: 9999999999;
+         opacity: 0; 
+}
+
 /*Code de David*/
 
 .image2 {
