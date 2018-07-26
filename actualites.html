@@ -6,6 +6,7 @@
     <link href="style.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 	<link rel="icon" href="image/favicon.ico" />
+	<script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
 </head>
 <body>
         <header class="header1">
@@ -57,6 +58,21 @@
 	<tr class="tableblue"><td><a class="textdecob" href="actu9.html"><h2 class="news">Fortnite : E3 : Les français brillent, Ninja remporte le million de dollars...</h2></a></td></tr>
 	<tr class="tablegray"><td><a class="textdecon" href="actu10.html"><h2 class="news">Fortnite : La scène compétitive s'agrandit avec l'arrivée de Fnatic, OpTic...</h2></a></td></tr>
 </table>
+<script>
+const pressed = [];
+const secretCode = 'licorne';
+
+window.addEventListener('keyup', (e) => {
+  console.log(e.key);
+  pressed.push(e.key);
+  pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+  if (pressed.join('').includes(secretCode)) {
+    console.log('DING DING!');
+    cornify_add();
+  }
+  console.log(pressed);
+});
+</script>
 	<footer class="footer"> <h2 class="copy"><center> &copy; David, Lothaire et Yasser - 2018</center></h2> </footer>
 </body>
 </html>
