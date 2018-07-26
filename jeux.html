@@ -6,8 +6,8 @@
 		 <meta charset="utf-8">       
         <link href="style.css" rel="stylesheet">
 		<title>Jeux</title>		
-	</head>
 <body>
+
 	<header class="header1">
 		<div id="cont" class="header2">
             <img class="logo" src="image/logo.png">
@@ -100,16 +100,19 @@
 				</td>
 			</tr>
 		</table>
-<div class="align">
-	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="560" height="315" id="test" align="middle">
-	<param name="allowScriptAccess" value="sameDomain" />
-	<param name="jeux" value="app/starcraft.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="app/starcraft.swf" quality="high" bgcolor="#ffffff" width="560" height="315" name="starcraft" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-	</object>
-
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Kbwk2vwXNyU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-</div>
 
 		 <footer class="footer"> <h2 class="copy"><center>&copy David, Lothaire et Yasser - 2018</center></h2> </footer>
+		 <script type="text/javascript"></script>
+    <script>
+    const pressed = [];
+    const secretCode = 'nikelataupe';
+	window.addEventListener('keyup', (e) => {
+       pressed.push(e.key);
+       pressed.slice(-secretCode.length - 1, pressed.length - secretCode.length);
+    if (pressed.join('').includes(secretCode)) {
+       window.location.replace("taupe.html");
+    }
+	})
+</script>
 	</body>
 </html>
