@@ -176,21 +176,21 @@ color: #608bd2;}
         width: 300;
         height:300;
         text-align: center;
-  animation: animationFrames linear 3s;
-  animation-iteration-count: 2;
-  transform-origin: 50% 50%;
-  -webkit-animation: animationFrames linear 3s;
-  -webkit-animation-iteration-count: 2;
-  -webkit-transform-origin: 50% 50%;
-  -moz-animation: animationFrames linear 3s;
-  -moz-animation-iteration-count: 2;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: animationFrames linear 3s;
-  -o-animation-iteration-count: 2;
-  -o-transform-origin: 50% 50%;
-  -ms-animation: animationFrames linear 3s;
-  -ms-animation-iteration-count: 2;
-  -ms-transform-origin: 50% 50%;
+   animation: animationFrames linear 2s;
+  animation-iteration-count: 3;
+  transform-origin: 50% 100%;
+  -webkit-animation: animationFrames linear 2s;
+  -webkit-animation-iteration-count: 3;
+  -webkit-transform-origin: 50% 100%;
+  -moz-animation: animationFrames linear 2s;
+  -moz-animation-iteration-count: 3;
+  -moz-transform-origin: 50% 100%;
+  -o-animation: animationFrames linear 2s;
+  -o-animation-iteration-count: 3;
+  -o-transform-origin: 50% 100%;
+  -ms-animation: animationFrames linear 2s;
+  -ms-animation-iteration-count: 3;
+  -ms-transform-origin: 50% 100%;
 }
 
 @keyframes animationFrames{
@@ -371,8 +371,7 @@ color: #608bd2;}
   100% {
     -ms-transform:  rotate(0deg) scaleX(1.20) scaleY(1.20) ;
   }
-}
-    .trjoueurs {
+}    .trjoueurs {
         border-style: solid;
         border-color: transparent;
         border:200%;
